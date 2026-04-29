@@ -1,0 +1,7 @@
+[build]
+  command = ""
+  publish = ""
+  edge_functions = "edge-functions"   
+[[edge_functions]]
+  path = "/*"
+  function = "proxy"
